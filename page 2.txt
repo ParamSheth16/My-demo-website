@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML practice</title>
+</head>
+<body>
+      <h1>Hello, world!</h1>
+      <p>This is a simple paragraph</p>
+      <p>This is a simple paragraph</p>
+      <h2>para</h2>
+      <p>If Open with Live Server still doesn’t appear, press Ctrl+Shift+P and search for Live Server: <br/>
+         Open with Live Server. <br/> If that command isn’t listed either, VS Code hasn’t activated the extension.</p>
+         <h2>instructions</h2>
+        <ul>
+            <li draggable="true">hi</li>
+            <li>bye</li>
+            <li hidden="until-found">no</li>
+        </ul>
+
+        <ol>
+            <li>
+                first
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </li>
+            <li>second</li>
+            <li>third</li>
+        </ol>
+
+        <form action="submit_form_info">
+        <label for="1">Enter Username:</label>
+        <input type="text" name="username" id="1">
+        <br>
+        <label for="2">Enter Email:</label>
+        <input type="email" name="email" id="2">
+        <br>
+        <label for="number">Mention Age:</label>
+        <input type="number" name="number" id="number">
+        <br>
+        <label for="color">Pick ur fav color:</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="button">submit w button type</button>
+         </form>
+        
+</body>
+</html>
